@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy – ALMARFELD Document Automation</title>
+
+<style>
+:root{--bg:#f3f5f9;--text:#142033;--muted:#5c6b82;--accent:#2f6bff}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1624;--text:#eaf0fb;--muted:#9aa9c4;--accent:#4d86ff}}
+body{margin:0;font:16px/1.65 "Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--text)}
+main{max-width:760px;margin:0 auto;padding:32px 20px 64px}a{color:var(--accent)}
+.note{color:var(--muted);border-left:4px solid var(--accent);padding-left:12px}
+code{background:rgba(127,127,127,.15);padding:1px 5px;border-radius:4px}
+</style></head><body><main>
+<h1>ALMARFELD Document Automation – Privacy Policy</h1>
+<p><em>Effective date: 2026-11-12 · Publisher: ALMARFELD · Contact: <a href="mailto:support@almarfeld.com">support@almarfeld.com</a></em></p>
+
+<h2>1. Summary</h2>
+<p>ALMARFELD Document Automation processes your documents <strong>only on your computer</strong>. We do not receive, store or analyse your documents, passwords or print history. The app has no account, no advertising and no analytics or telemetry.</p>
+<h2>2. What the app processes locally</h2>
+<ul>
+<li><strong>Documents you choose</strong> (PDF, Word, Excel, PowerPoint, OpenDocument, images, text and RTF), or documents that appear in folders you configured. They are read to count pages, show a preview and send them to your printer. Word, Excel, PowerPoint and OpenDocument files are converted on your PC into a <strong>temporary PDF copy</strong>: by Microsoft Office or LibreOffice if installed (started hidden, opening your file read-only with macros disabled and only saving a PDF) and otherwise by the application's own renderer. These temporary copies live in the application's private data folder and are deleted after 24 hours at the latest and when the application exits. Converting does not print anything; Office may query the default printer for page layout, as it does whenever it opens a document. Your documents are never uploaded and the originals are never modified, moved or deleted.</li>
+<li><strong>Print history and queue</strong> (full file path and name, printer name, page counts, status, error text), stored in a local database on your PC so the queue survives restarts and you can review and export your history.</li>
+<li><strong>Settings</strong> (language, theme, folders you asked Document Automation to watch, printing rules), stored in a local file.</li>
+<li><strong>Log files</strong> with technical events: file names, printer names, status and error types. Document contents and passwords are never written. Folder paths and your Windows user name / computer name are automatically masked in log lines (a path appears only as "...\file name"). Log files older than 30 days are deleted the next time the app runs.</li>
+</ul>
+<p>All of the above stays on your device and is stored in the app's own data folder.</p>
+<p><strong>Windows itself also sees your print jobs.</strong> When Document Automation sends a document to a printer, Windows (the print spooler, the printer driver and any Windows print logs) receives the document and its job name, which contains the file name. That is how all Windows printing works and is outside Document Automation's control.</p>
+<h2>2b. Removing your data</h2>
+<ul>
+<li><strong>Microsoft Store version:</strong> the app keeps all of the data above in its private package storage. <strong>Uninstalling the app deletes it</strong> (history, queue, settings, logs, licence cache). Verified by test on the packaged build.</li>
+<li><strong>Not removed by uninstalling:</strong> files <strong>you</strong> created or chose a location for – exported CSV history files and support-package ZIP files – and everything Windows or your printer keeps (see above). Delete those yourself.</li>
+<li>You can also clear the history inside the app at any time (History → Clear history).</li>
+<li>A non-Store (unpackaged/developer) build keeps its data in your user profile under <code>%LOCALAPPDATA%\ALMARFELD\PrintFlow</code> and does <strong>not</strong> remove it automatically.</li>
+</ul>
+<h2>3. Licensing and the Microsoft Store</h2>
+<p>Purchases, free-trial status and licence checks are handled by the <strong>Microsoft Store</strong>. Document Automation asks Windows/Microsoft Store whether your licence or trial is active; it does not receive your payment details. Microsoft processes that data under its own privacy statement. Document Automation stores locally only the date it last verified that a purchased licence was active (so a short offline period of up to 14 days does not lock you out). The only network access in Document Automation is this Microsoft Store licence call; the app contains no analytics, advertising or telemetry code. Microsoft may collect its own diagnostic data about Store apps under its privacy statement.</p>
+<h2>4. Support packages</h2>
+<p>If you choose "Create support package", Document Automation writes a ZIP file to a location <strong>you</strong> pick. It contains recent log files (with the masking described above, so file names and printer names may still appear), the app version, your Windows version, the licence state and counts of jobs by status. It does <strong>not</strong> contain documents, settings, the history database, your user name or your computer name. Document Automation never sends it anywhere; you decide whether to send it to us and can open the file first.</p>
+<h2>5. Sharing</h2>
+<p>We do not sell or share personal data. We do not receive any personal data from the app. If you send us a support package or an e-mail, we use it only to help you and retain it as needed to respond to your request.</p>
+<h2>6. Children</h2>
+<p>The app is a business tool and is not directed at children.</p>
+<h2>7. Security</h2>
+<p>Data is stored in your Windows user profile and protected by Windows account permissions. Use disk encryption (e.g. BitLocker) if your documents are sensitive.</p>
+<h2>8. Your rights</h2>
+<p>For requests about personal information you sent us when contacting support, email us at the address below. You can delete the app's local data at any time by clearing the history in the app or by uninstalling the Store version (see 2b). For support or privacy questions contact <a href="mailto:support@almarfeld.com">support@almarfeld.com</a>.</p>
+<h2>9. Changes</h2>
+<p>We will publish updates to this policy on this page and change the effective date.</p>
+</main></body></html>
